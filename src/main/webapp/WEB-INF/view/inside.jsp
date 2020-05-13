@@ -1,6 +1,6 @@
 <%--
     Страница "Как сделан магазин".
---%>
+
 
 <%@page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@taglib prefix="s" uri="http://www.springframework.org/tags" %>
@@ -25,7 +25,7 @@
     <li><a href="#db">Модель базы данных</a></li>
     <li><a href="#customization">Пользовательские классы Spring</a></li>
 </ul>
---%>
+
 
 <a name="tech"></a>
 <h2>Технологии</h2>
@@ -198,3 +198,4 @@
         $('#details').hide();
     });
 </script>
+--%>

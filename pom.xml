@@ -11,8 +11,8 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/aleksey-lukyanets/market</url>
+
+
         </repository>
     </distributionManagement>
 

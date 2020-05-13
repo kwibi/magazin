@@ -33,9 +33,9 @@
 
 			<div class="footer">
 				<ul class="list-inline">
-					<li><a href="<c:url value="/inside" />" class="btn btn-default btn-xs">как сделан магазин</a></li>
-					<li><a href="https://github.com/aleksey-lukyanets/market">github</a></li>
-					<li><a href="https://www.linkedin.com/in/aleksey-lukyanets">linkedin</a></li>
+
+					<li><a href="https://github.com/kwibi/magazin">github</a></li>
+
 				</ul>
 			</div>
 		</div>

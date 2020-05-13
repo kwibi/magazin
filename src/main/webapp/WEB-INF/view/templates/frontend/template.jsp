@@ -24,16 +24,12 @@
 <div id="layout">
 	<div class="row">
 		<div class="col-md-4 col-sm-4 col-xs-12" id="sidebar">
-			<div class="clearfix">
-				<div class="btn-group pull-right" style="padding-right:1.5em;padding-bottom:1em;">
-					&nbsp;<a id="details" class="btn btn-danger">Как работает страница?</a>
-				</div>
-			</div>
+
 			<div class="header">
 				<div class="brand-title">
 					<a class="brand-title" href="<c:url value="/" />">Магазин виски</a>
 				</div>
-				<div class="brand-tagline">виски с доставкой по Петербургу</div>
+				<div class="brand-tagline">виски с доставкой по Молдове</div>
 			</div>
 			<c:if test="${!empty regions}">
 				<tiles:insertAttribute name="menu"/>
@@ -87,11 +83,8 @@
 
 				<div class="footer">
 					<ul class="list-inline">
-						<li><a href="<c:url value="/inside" />" class="btn btn-danger btn-xs">как сделан магазин</a>
 						</li>
-						<li><a href="<c:url value="/rest-api" />" class="btn btn-danger btn-xs">rest api</a></li>
-						<li><a href="https://github.com/aleksey-lukyanets/market">github</a></li>
-						<li><a href="https://www.linkedin.com/in/aleksey-lukyanets">linkedin</a></li>
+						<li><a href="https://github.com/kwibi/magazin">github</a></li>
 					</ul>
 				</div>
 

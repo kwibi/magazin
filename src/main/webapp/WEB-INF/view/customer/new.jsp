@@ -114,7 +114,7 @@
 				data-validate="phone"
 				data-description="phone"
 				data-describedby="phone-desc"
-				placeholder="+7 (123) 456 78 90"/>
+				placeholder="+373 768 57 496"/>
 			<span id="phone" class="glyphicon form-control-feedback"></span>
 			<span class="help-block">обязательное поле</span>
 			<div id="phone-desc"></div>
