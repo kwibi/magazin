@@ -55,7 +55,7 @@
 							<td><c:out value="${order.productsCost}"/> mdl.</td>
 						</tr>
 						<tr>
-							<td colspan="3" align="right">доставка по Петербургу:</td>
+							<td colspan="3" align="right">доставка по Молдове:</td>
 							<td><c:out value="${order.deliveryСost}"/> mdl.</td>
 						</tr>
 					</c:if>

@@ -118,7 +118,7 @@
 				<td>${cart.productsCost}&nbsp;mdl.</td>
 			</tr>
 			<tr class="included-true">
-				<td colspan="4" align="right">доставка по Петербургу:</td>
+				<td colspan="4" align="right">доставка по Молдове:</td>
 				<td>${deliveryCost}&nbsp;mdl.</td>
 			</tr>
 			<tr class="included-true">
