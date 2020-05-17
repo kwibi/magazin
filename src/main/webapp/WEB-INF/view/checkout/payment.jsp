@@ -76,7 +76,7 @@
 						<p>${userName}<br>
 								${userContacts.phone}<br>
 								${userContacts.address}<br>
-							г. Санкт-Петербург</p>
+							г. Кишинев</p>
 					</c:when>
 					<c:otherwise>
 						самовывоз со склада,<br>

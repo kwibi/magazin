@@ -31,7 +31,7 @@
 					${userAccount.name}
 					<br>
 					<c:if test="${createdOrder.deliveryIncluded}">
-						г. Санкт-Петербург<br>
+						г. Кишинев<br>
 						${userContacts.address}
 						<hr/>
 					</c:if>
