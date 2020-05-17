@@ -20,7 +20,7 @@
 			<th>объём,&nbsp;мл</th>
 			<th>алк.,&nbsp;%&nbsp;об.</th>
 
-			<th>цена,&nbsp;руб.</th>
+			<th>цена,&nbsp;mdl.</th>
 			<th>в&nbsp;наличии</th>
 		</tr>
 		</thead>

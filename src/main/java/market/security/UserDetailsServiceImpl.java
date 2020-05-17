@@ -38,7 +38,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 	}
 
 	private User buildUser(UserAccount account) {
-		String login = account.getEmail();
+		String login = account.getEmail();S
 		String password = account.getPassword();
 		boolean enabled = account.isActive();
 		boolean accountNonExpired = account.isActive();

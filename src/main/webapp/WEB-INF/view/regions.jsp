@@ -34,7 +34,7 @@
 		</div>
 		<div class="col-sm-9 col-xs-9 product-unit">
 			<div class="pull-right price-block">
-				<div class="product-price product-label">${product.price} руб.</div>
+				<div class="product-price product-label">${product.price} mdl.</div>
 				<form method="post" id="quantity-form" action="<c:url value="/cart"/>">
 					<input type="hidden" name="productId" value="${product.productId}">
 					<input type="hidden" name="quantity" value="1">

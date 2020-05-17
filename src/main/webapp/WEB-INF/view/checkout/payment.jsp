@@ -36,30 +36,30 @@
 					<c:set var="product" value="${productsById[cartItem.productId]}"/>
 					<tr>
 						<td>${product.distillery} ${product.name}</td>
-						<td>${product.price} руб.</td>
+						<td>${product.price} mdl.</td>
 						<td>${cartItem.quantity}</td>
-						<td>${product.price * cartItem.quantity} руб.</td>
+						<td>${product.price * cartItem.quantity} mdl.</td>
 					</tr>
 				</c:forEach>
 				<c:choose>
 					<c:when test="${cart.deliveryIncluded}">
 						<tr>
 							<td colspan="3" align="right"><b>подитог:</b></td>
-							<td><b>${cart.productsCost} руб.</b></td>
+							<td><b>${cart.productsCost} mdl.</b></td>
 						</tr>
 						<tr style="background-color: white;">
 							<td colspan="3" align="right">доставка:</td>
-							<td>${deliveryCost} руб.</td>
+							<td>${deliveryCost} mdl.</td>
 						</tr>
 						<tr>
 							<td colspan="3" align="right"><h5>сумма к оплате:</h5></td>
-							<td><h5>${cart.productsCost + deliveryCost}&nbsp;руб.</h5></td>
+							<td><h5>${cart.productsCost + deliveryCost}&nbsp;mdl.</h5></td>
 						</tr>
 					</c:when>
 					<c:otherwise>
 						<tr>
 							<td colspan="3" align="right"><h5>сумма к оплате:</h5></td>
-							<td><h5>${cart.productsCost}&nbsp;руб.</h5></td>
+							<td><h5>${cart.productsCost}&nbsp;mdl.</h5></td>
 						</tr>
 					</c:otherwise>
 				</c:choose>

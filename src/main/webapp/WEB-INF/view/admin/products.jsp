@@ -23,7 +23,7 @@
 
 			<th>объём,<br>мл.</th>
 			<th>алк.<br>%&nbsp;об.</th>
-			<th>цена,<br>руб.</th>
+			<th>цена,<br>mdl.</th>
 			<th width="160">описание</th>
 			<th></th>
 		</tr>

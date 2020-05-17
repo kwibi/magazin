@@ -111,7 +111,7 @@
 												</tr>
 												<tr>
 													<td align="right" style="padding-right: 7px;">на сумму:</td>
-													<td><c:out value="${bill.totalCost}"/> руб.</td>
+													<td><c:out value="${bill.totalCost}"/> mdl.</td>
 												</tr>
 											</table>
 										</li>
@@ -144,24 +144,24 @@
 											<c:set var="product" value="${productsByOrderId[orderedProduct.productId]}"/>
 											<tr>
 												<td><c:out value="${product.distillery} ${product.name}"/></td>
-												<td><c:out value="${product.price}"/> руб.</td>
+												<td><c:out value="${product.price}"/> mdl.</td>
 												<td><c:out value="${orderedProduct.quantity}"/></td>
-												<td><c:out value="${orderedProduct.quantity * product.price}"/> руб.</td>
+												<td><c:out value="${orderedProduct.quantity * product.price}"/> mdl.</td>
 											</tr>
 										</c:forEach>
 										<c:if test="${order.deliveryIncluded}">
 											<tr>
 												<td colspan="3" align="right">подитог:</td>
-												<td><c:out value="${order.productsCost}"/> руб.</td>
+												<td><c:out value="${order.productsCost}"/> mdl.</td>
 											</tr>
 											<tr>
 												<td colspan="3" align="right">доставка по Петербургу:</td>
-												<td><c:out value="${order.deliveryCost}"/> руб.</td>
+												<td><c:out value="${order.deliveryCost}"/> mdl.</td>
 											</tr>
 										</c:if>
 										<tr>
 											<td colspan="3" align="right">итог:</td>
-											<td><c:out value="${order.productsCost + order.deliveryCost}"/> руб.</td>
+											<td><c:out value="${order.productsCost + order.deliveryCost}"/> mdl.</td>
 										</tr>
 									</table>
 								</div>

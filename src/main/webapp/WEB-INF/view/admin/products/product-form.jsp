@@ -92,7 +92,7 @@
 
 <div class="form-group">
 	<label for="price" class="col-sm-3 control-label">
-		цена, руб.
+		цена, mdl.
 	</label>
 	<div class="col-sm-3 has-feedback">
 		<sf:input

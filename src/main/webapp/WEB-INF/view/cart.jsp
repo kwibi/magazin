@@ -91,7 +91,7 @@
 							width="100">
 					</td>
 					<td>${product.distillery} ${product.name}</td>
-					<td>${product.price}&nbsp;руб.</td>
+					<td>${product.price}&nbsp;mdl.</td>
 					<td width="125">
 						<sf:form method="put" modelAttribute="cartItem">
 							<input type="hidden" name="productId" value="${product.productId}">
@@ -108,26 +108,26 @@
 						</sf:form>
 					</td>
 					<td>
-							${product.price * cartItem.quantity}&nbsp;руб.
+							${product.price * cartItem.quantity}&nbsp;mdl.
 					</td>
 				</tr>
 			</c:forEach>
 
 			<tr class="included-true">
 				<td colspan="4" align="right">подитог:</td>
-				<td>${cart.productsCost}&nbsp;руб.</td>
+				<td>${cart.productsCost}&nbsp;mdl.</td>
 			</tr>
 			<tr class="included-true">
 				<td colspan="4" align="right">доставка по Петербургу:</td>
-				<td>${deliveryCost}&nbsp;руб.</td>
+				<td>${deliveryCost}&nbsp;mdl.</td>
 			</tr>
 			<tr class="included-true">
 				<td colspan="4" align="right"><h4>итог:</h4></td>
-				<td><h4>${cart.productsCost + deliveryCost}&nbsp;руб.</h4></td>
+				<td><h4>${cart.productsCost + deliveryCost}&nbsp;mdl.</h4></td>
 			</tr>
 			<tr class="included-false">
 				<td colspan="4" align="right"><h4>итог:</h4></td>
-				<td><h4>${cart.productsCost}&nbsp;руб.</h4></td>
+				<td><h4>${cart.productsCost}&nbsp;mdl.</h4></td>
 			</tr>
 		</table>
 	</div>
@@ -171,7 +171,7 @@
 			<div class="panel panel-primary included-true">
 				<div class="panel-heading"><h3 class="panel-title">Гарантия доставки<br>на следующий день</h3></div>
 				<div class="panel-body">Цена курьерской доставки в объёме
-						${cart.deliveryCost} руб. включена в заказ
+						${cart.deliveryCost} mdl. включена в заказ
 				</div>
 			</div>
 		</div>
