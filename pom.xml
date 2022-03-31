@@ -91,7 +91,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.2.3.RELEASE</spring.version>
-        <spring.boot.version>2.2.3.RELEASE</spring.boot.version> <!-- do not forget also to update the parent pom version -->
+        <spring.boot.version>2.5.12</spring.boot.version> <!-- do not forget also to update the parent pom version -->
         <spring.data.version>2.2.4.RELEASE</spring.data.version>
         <spring.security.version>5.2.1.RELEASE</spring.security.version> <!-- on spring-boot upgrade change to the version of others 'spring-security-*' -->
         <spring.plugin.version>2.0.0.RELEASE</spring.plugin.version>
